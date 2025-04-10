@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'IMFellGreatPrimer';
+    src: 
+        url('fonts/IMFellGreatPrimer-Regular.ttf'),
+        url('fonts/IMFellGreatPrimer-Italic.ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IMFellGreatPrimerSC';
+    src: url('fonts/IMFellGreatPrimerSC-Regular.ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -5,20 +23,25 @@
 }
   
 html {
-    font-family: 'Inter', sans-serif;
+    font-family: 'IMFellGreatPrimer';
     background-color: #fef1d7;
     color: #352f36;
 }
 
 header {
-    height: 15vh;
+    height: 25vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+h1 {
+    font-family: 'IMFellGreatPrimerSC';
+    font-size: 4em;
+}
+
 .container {
-    height: 85vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
