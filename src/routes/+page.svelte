@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+
+</script>
+
+<header>
+    <h1>DungeoM</h1>
+    <input type="button" value="LOGIN">
+</header>
