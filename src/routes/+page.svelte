@@ -1,12 +1,8 @@
 <script>
-
+    import Header from "$lib/components/Header.svelte";
 </script>
 
-<header>
-    <h1>DungeoM</h1>
-    <input type="button" value="LOGIN">
-</header>
-
+<Header />
 <div class="container">
     <p>ciao</p>
 </div>
