@@ -1,0 +1,12 @@
+.container {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 5rem;
+    border: 0.2rem solid;
+    border-bottom: 0;
+    border-color: var(--text-color);
+    border-radius: 1e2px 1e2px 0 0;
+}

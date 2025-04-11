@@ -6,9 +6,7 @@
     };
 </script>
 
-<header>
-    <h1>
-        <a href="/" class="invisibleLink">DungeoM</a>
-    </h1>
+<div style="height: 30vh; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center">
+    <h1 style="font-size: clamp(4rem, 10vw, 6rem)">DungeoM</h1>
     <button on:click={navigateToLogin}>LOGIN</button>
-</header>
+</div>

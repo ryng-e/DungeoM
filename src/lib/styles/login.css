@@ -1,0 +1,45 @@
+input[type=text] {
+    /*text*/
+    font-family: 'IMFellGreatPrimer';
+    font-size: clamp(1rem, 5vw, 2rem);
+    color: var(--text-color);
+    text-align: center;
+    /*size*/
+    width: 30%;
+    margin-bottom:2.5vh;
+    /*border*/
+    border: none;
+    border-bottom: 0.2rem solid var(--text-color);
+    /*extra*/
+    background: none;
+}
+
+input[type=password] {
+    /*text*/
+    font-family: 'IMFellGreatPrimer';
+    font-size: clamp(1rem, 5vw, 2rem);
+    color: var(--text-color);
+    text-align: center;
+    /*size*/
+    width: 30%;
+    margin-bottom:10vh;
+    /*border*/
+    border: none;
+    border-bottom: 0.2rem solid var(--text-color);
+    /*extra*/
+    background: none;
+}
+
+input::placeholder {
+    opacity: 0.5;
+}
+
+.dontHaveAccount {
+    margin-top:10vh;
+}
+
+.title {
+    font-family: 'IMFellGreatPrimerSC';
+    font-size: clamp(6rem, 10vw, 8rem);
+    margin-bottom:10vh;
+}
