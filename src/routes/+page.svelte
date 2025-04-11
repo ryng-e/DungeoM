@@ -4,5 +4,5 @@
 
 <Header />
 <div class="container">
-    <p>ciao</p>
+    ciao
 </div>

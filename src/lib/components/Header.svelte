@@ -4,7 +4,7 @@
     const navigateToLogin = () => {
       goto('/login');
     };
-  </script>
+</script>
 
 <header>
     <h1>

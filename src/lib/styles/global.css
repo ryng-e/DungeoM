@@ -45,13 +45,15 @@ body {
 header {
     height: 30vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    max-width: 100%;
 }
 
 h1 {
     font-family: 'IMFellGreatPrimerSC';
-    font-size: 5em;
+    font-size: clamp(4rem, 10vw, 6rem);
 }
 
 a {
@@ -59,17 +61,61 @@ a {
 }
 
 button {
+    /*text*/
     font-family: 'IMFellGreatPrimerSC';
-    font-size: 2em;
+    font-size: clamp(1rem, 5vw, 2rem);
+    color: var(--text-color);
+    /*size*/
+    width: 20%;
+    height: 4rem;
+    /*border*/
+    border: 0.2rem solid var(--text-color);
+    border-radius: 1e5px;
+    /*extra*/
     background: none;
     cursor: pointer;
-    width: 20%;
-    min-width: 4em;
-    height: 2em;
-    border: solid;
-    border-radius: 1e5px;
-    border-color: var(--text-color);
-    color: var(--text-color);   
+}
+
+input[type=text] {
+    /*text*/
+    font-family: 'IMFellGreatPrimer';
+    font-size: clamp(1rem, 5vw, 2rem);
+    color: var(--text-color);
+    text-align: center;
+    /*size*/
+    width: 30%;
+    margin-bottom:2.5vh;
+    /*border*/
+    border: none;
+    border-bottom: 0.2rem solid var(--text-color);
+    /*extra*/
+    background: none;
+}
+
+input[type=password] {
+    /*text*/
+    font-family: 'IMFellGreatPrimer';
+    font-size: clamp(1rem, 5vw, 2rem);
+    color: var(--text-color);
+    text-align: center;
+    /*size*/
+    width: 30%;
+    margin-bottom:10vh;
+    /*border*/
+    border: none;
+    border-bottom: 0.2rem solid var(--text-color);
+    /*extra*/
+    background: none;
+}
+
+input::placeholder {
+    opacity: 0.5;
+}
+
+.title {
+    font-family: 'IMFellGreatPrimerSC';
+    font-size: clamp(6rem, 10vw, 8rem);
+    margin-bottom:10vh;
 }
 
 .invisibleLink {
@@ -77,9 +123,19 @@ button {
     color: inherit;
 }
 
+.dontHaveAccount {
+    margin-top:10vh;
+}
+
 .container {
     height: 70vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
+    margin: 0 5rem;
+    border: 0.2rem solid;
+    border-bottom: 0;
+    border-color: var(--text-color);
+    border-radius: 1e2px 1e2px 0 0;
 }
