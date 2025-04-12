@@ -53,15 +53,26 @@ a {
 button {
     /*text*/
     font-family: 'IMFellGreatPrimerSC';
-    font-size: clamp(1rem, 5vw, 2rem);
+    font-size: 2rem;
     color: var(--text-color);
     /*size*/
     width: 20%;
     height: 4rem;
     /*border*/
-    border: 0.2rem solid var(--text-color);
+    border: 0.25rem solid var(--text-color);
     border-radius: 1e5px;
     /*extra*/
     background: none;
     cursor: pointer;
+}
+
+.goinUp {
+    transition: height 0.4s ease;
+    position: fixed;
+    bottom: 0;
+    transform-origin: bottom;
+}
+
+.goinUp:hover {
+  height: 95vh !important;
 }
