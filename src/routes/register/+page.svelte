@@ -16,7 +16,7 @@
     <div class="spaceBox"></div>
     
     <div class="inputBox">
-        <input type="text" placeholder="Username" style="width: 30vw">
+        <input type="text" placeholder="Email" style="width: 30vw">
     </div>
 
     <div class="inputBox">
