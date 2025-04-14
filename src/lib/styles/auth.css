@@ -1,0 +1,57 @@
+input {
+    /*text*/
+    font-family: 'IMFellGreatPrimer';
+    font-size: 2.5rem;
+    color: var(--text-color);
+    text-align: center;
+    /*border*/
+    border: none;
+    border-bottom: 0.25rem solid var(--text-color);
+    /*extra*/
+    background: none;
+}
+
+input::placeholder {
+    opacity: 0.5;
+}
+
+.outerBox {
+    display: flex; 
+    flex-direction: column; 
+    height: 100vh; 
+    width: 100vw;
+}
+
+.titleBox {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 50vh;
+    width: 100vw;
+    font-size: 5rem;
+}
+
+.spaceBox {
+    height: 5vh;
+}
+
+.inputBox {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    height: 8vh;
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 19vh;
+}
+
+.help {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
