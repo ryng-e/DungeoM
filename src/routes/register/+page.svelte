@@ -16,7 +16,7 @@
                 await register(email, password);
                 goto('/home');
             } catch (err) {
-                error = 'REGISTRATION FAILED!';
+                error = 'EMAIL ALREADY IN USE!';
                 console.error(err);
             }
         }
