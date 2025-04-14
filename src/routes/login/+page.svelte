@@ -2,7 +2,6 @@
     import "$lib/styles/auth.css"
     import { goto } from '$app/navigation';
     import { login } from '$lib/firebase/auth';
-    import { onMount } from 'svelte';
 
     let email = '';
     let password = '';
@@ -13,14 +12,10 @@
             await login(email, password);
             goto('/home');
         } catch (err) {
-            error = 'Login fallito: controlla le credenziali.';
+            error = 'LOGIN FAILED!';
             console.error(err);
         }
     }
-
-    const navigateToHome = () => {
-      goto('/home');
-    };
 </script>
 
 <div class="outerBox">
@@ -33,16 +28,18 @@
     
     <form on:submit|preventDefault={handleLogin}>
         <div class="inputBox">
-            <input type="email" placeholder="Email" bind:value={email} required style="width: 35vw">
+            <input type="email" placeholder="Email" bind:value={email} required>
         </div>
     
         <div class="inputBox">
-            <input type="password" placeholder="Password" bind:value={password} required style="width: 35vw">
+            <input type="password" placeholder="Password" bind:value={password} required>
         </div>
 
-        {#if error}
-        <p class="error">{error}</p>
-        {/if}
+        <div class="errorBox">
+            {#if error}
+            <p class="error">{error}</p>
+            {/if}
+        </div>
     
         <div class="buttonBox">
             <button type="submit">LOGIN</button>

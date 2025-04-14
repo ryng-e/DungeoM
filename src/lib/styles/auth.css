@@ -1,14 +1,12 @@
 input {
-    /*text*/
+    background: none;
     font-family: 'IMFellGreatPrimer';
     font-size: 2.5rem;
     color: var(--text-color);
     text-align: center;
-    /*border*/
     border: none;
     border-bottom: 0.25rem solid var(--text-color);
-    /*extra*/
-    background: none;
+    width: 35vw;
 }
 
 input::placeholder {
@@ -42,11 +40,25 @@ input::placeholder {
     height: 8vh;
 }
 
-.buttonBox {
+.errorBox {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 19vh;
+    height: 7vh;
+    width: 100vw;
+}
+
+.error {
+    color: red;
+    font-family: 'IMFellGreatPrimerSC';
+    font-size: 1.2rem;
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 12vh;
 }
 
 .help {
