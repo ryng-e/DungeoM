@@ -41,8 +41,9 @@
             {/if}
         </div>
     
-        <div class="buttonBox">
+        <div class="multipleButtonBox">
             <button type="submit">LOGIN</button>
+            <button type="button">w/GOOGLE</button>
         </div>
     </form>
 

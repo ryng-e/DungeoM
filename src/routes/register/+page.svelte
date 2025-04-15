@@ -25,7 +25,7 @@
 
 <div class="outerBox">
     
-    <div class="titleBox" style="height: 42vh;">
+    <div class="titleBox">
         <h1>DungeoM</h1>
     </div>
 
@@ -50,7 +50,7 @@
             {/if}
         </div>
     
-        <div class="buttonBox">
+        <div class="singleButtonBox">
             <button type="submit">REGISTER</button>
         </div>
     </form>

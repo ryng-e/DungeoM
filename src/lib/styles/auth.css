@@ -24,7 +24,7 @@ input::placeholder {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 50vh;
+    height: 42vh;
     width: 100vw;
     font-size: 5rem;
 }
@@ -54,10 +54,19 @@ input::placeholder {
     font-size: 1.2rem;
 }
 
-.buttonBox {
+.multipleButtonBox {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 18vh;
+}
+
+.singleButtonBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     height: 12vh;
 }
 
