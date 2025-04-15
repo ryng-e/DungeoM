@@ -56,7 +56,7 @@
     </form>
     
     <div class="help">
-        <p>Already have an account? <a href="/login">Log In</a></p>
+        <p class="helpText">Already have an account? <a href="/login">Log In</a></p>
     </div>
 
 </div>

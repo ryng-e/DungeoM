@@ -1,21 +1,21 @@
 input {
     background: none;
     font-family: 'IMFellGreatPrimer';
-    font-size: 2.5vw;
+    font-size: calc(9px + 1.5vw);
     color: var(--text-color);
     text-align: center;
     border: none;
-    border-bottom: 0.25rem solid var(--text-color);
+    border-bottom: calc(2.5px + 0.1vw) solid var(--text-color);
     width: 35vw;
 }
 
 button {
     font-family: 'IMFellGreatPrimerSC';
-    font-size: 2vw;
+    font-size: calc(9px + 1.5vw);
     color: var(--text-color);
-    width: 15vw;
-    height: 7.5vh;
-    border: 0.25rem solid var(--text-color);
+    width: 20vw;
+    height: 9vh;
+    border: calc(2.5px + 0.1vw) solid var(--text-color);
     border-radius: 1e5px;
     background: none;
     cursor: pointer;
@@ -42,7 +42,7 @@ input::placeholder {
 }
 
 .title {
-    font-size: 11vw;
+    font-size: calc(48px + 8vw);
 }
 
 .spaceBox {
@@ -67,15 +67,15 @@ input::placeholder {
 .error {
     color: red;
     font-family: 'IMFellGreatPrimerSC';
-    font-size: 1.2rem;
+    font-size: calc(8px + 0.5vw);
 }
 
 .multipleButtonBox {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 18vh;
+    height: 20vh;
 }
 
 .singleButtonBox {
@@ -91,4 +91,8 @@ input::placeholder {
     justify-content: center;
     align-items: center;
     height: 10vh;
+}
+
+.helpText {
+    font-size: calc(8px + 0.5vw);
 }

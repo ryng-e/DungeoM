@@ -48,7 +48,7 @@
     </form>
 
     <div class="help">
-        <p>Don't have an account? <a href="/register">Sign Up</a></p>
+        <p class="helpText">Don't have an account? <a href="/register">Sign Up</a></p>
     </div>
 
 </div>
