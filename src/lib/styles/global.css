@@ -50,21 +50,17 @@ a {
     color: var(--link-color);
 }
 
-button {
-    /*text*/
+/*button {
     font-family: 'IMFellGreatPrimerSC';
     font-size: 2rem;
     color: var(--text-color);
-    /*size*/
     width: 20%;
     height: 4rem;
-    /*border*/
     border: 0.25rem solid var(--text-color);
     border-radius: 1e5px;
-    /*extra*/
     background: none;
     cursor: pointer;
-}
+}*/
 
 .goinUp {
     transition: height 0.4s ease;

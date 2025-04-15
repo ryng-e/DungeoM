@@ -1,13 +1,26 @@
 input {
     background: none;
     font-family: 'IMFellGreatPrimer';
-    font-size: 2.5rem;
+    font-size: 2.5vw;
     color: var(--text-color);
     text-align: center;
     border: none;
     border-bottom: 0.25rem solid var(--text-color);
     width: 35vw;
 }
+
+button {
+    font-family: 'IMFellGreatPrimerSC';
+    font-size: 2vw;
+    color: var(--text-color);
+    width: 15vw;
+    height: 7.5vh;
+    border: 0.25rem solid var(--text-color);
+    border-radius: 1e5px;
+    background: none;
+    cursor: pointer;
+}
+
 
 input::placeholder {
     opacity: 0.5;
@@ -26,7 +39,10 @@ input::placeholder {
     align-items: flex-end;
     height: 42vh;
     width: 100vw;
-    font-size: 5rem;
+}
+
+.title {
+    font-size: 11vw;
 }
 
 .spaceBox {

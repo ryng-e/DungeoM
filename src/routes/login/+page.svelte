@@ -21,7 +21,7 @@
 <div class="outerBox">
     
     <div class="titleBox">
-        <h1>DungeoM</h1>
+        <h1 class="title">DungeoM</h1>
     </div>
 
     <div class="spaceBox"></div>
