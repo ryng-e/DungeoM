@@ -1,7 +1,7 @@
 <script lang="ts">
     import "$lib/styles/auth.css"
     import { goto } from '$app/navigation';
-    import { login } from '$lib/firebase/auth';
+    import { login, logWithGoogle } from '$lib/firebase/auth';
 
     let email = '';
     let password = '';
@@ -13,6 +13,16 @@
             goto('/home');
         } catch (err) {
             error = 'LOGIN FAILED!';
+            console.error(err);
+        }
+    }
+
+    async function handleLogWithGoogle() {
+        try {
+            await logWithGoogle();
+            goto('/home');
+        } catch(err) {
+            error = error = 'LOGIN FAILED!';
             console.error(err);
         }
     }
@@ -43,7 +53,7 @@
     
         <div class="multipleButtonBox">
             <button type="submit">LOGIN</button>
-            <button type="button">w/GOOGLE</button>
+            <button type="button" on:click={handleLogWithGoogle}>w/GOOGLE</button>
         </div>
     </form>
 
