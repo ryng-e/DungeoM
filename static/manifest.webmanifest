@@ -1,0 +1,23 @@
+{
+    "name": "DungeoM",
+    "short_name": "DM",
+    "description": "",
+    "display": "fullscreen",
+    "start_url": "/",
+    "scope": "/",
+    "background_color": "#fef1d7",
+    "theme_color": "#352f36",
+    "icons": [
+        {
+            "src": "icons/pwa-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/pwa-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ]
+}
