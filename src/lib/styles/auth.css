@@ -1,0 +1,98 @@
+input {
+    background: none;
+    font-family: 'IMFellGreatPrimer';
+    font-size: calc(9px + 1.5vw);
+    color: var(--text-color);
+    text-align: center;
+    border: none;
+    border-bottom: calc(2.5px + 0.1vw) solid var(--text-color);
+    width: 35vw;
+}
+
+button {
+    font-family: 'IMFellGreatPrimerSC';
+    font-size: calc(9px + 1.5vw);
+    color: var(--text-color);
+    width: 20vw;
+    height: 9vh;
+    border: calc(2.5px + 0.1vw) solid var(--text-color);
+    border-radius: 1e5px;
+    background: none;
+    cursor: pointer;
+}
+
+
+input::placeholder {
+    opacity: 0.5;
+}
+
+.outerBox {
+    display: flex; 
+    flex-direction: column;
+    height: 100vh; 
+    width: 100vw;
+}
+
+.titleBox {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 42vh;
+    width: 100vw;
+}
+
+.title {
+    font-size: calc(48px + 8vw);
+}
+
+.spaceBox {
+    height: 5vh;
+}
+
+.inputBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+}
+
+.errorBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    width: 100vw;
+}
+
+.error {
+    color: red;
+    font-family: 'IMFellGreatPrimerSC';
+    font-size: calc(8px + 0.5vw);
+}
+
+.multipleButtonBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+
+.singleButtonBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 12vh;
+}
+
+.help {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.helpText {
+    font-size: calc(8px + 0.5vw);
+}
