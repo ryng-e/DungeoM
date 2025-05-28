@@ -1,2 +1,16 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
+
+@import '@skeletonlabs/skeleton';
+@import '@skeletonlabs/skeleton/optional/presets';
+@import '@skeletonlabs/skeleton/themes/mona';
+
+@import '@fontsource-variable/comfortaa';
+
+@source '../node_modules/@skeletonlabs/skeleton-svelte/dist';
+
+[data-theme="mona"] {
+    --heading-font-family: 'Comfortaa Variable', sans-serif;
+    --base-font-family: 'Comfortaa Variable', sans-serif;
+    --anchor-font-family: 'inherit';
+}
