@@ -7,10 +7,11 @@
 
 @import '@fontsource-variable/comfortaa';
 
-@source '../node_modules/@skeletonlabs/skeleton-svelte/dist';
+@source '@skeletonlabs/skeleton-svelte/dist';
+/* @source '../node_modules/@skeletonlabs/skeleton-svelte/dist'; */
 
 [data-theme="mona"] {
     --heading-font-family: 'Comfortaa Variable', sans-serif;
     --base-font-family: 'Comfortaa Variable', sans-serif;
-    --anchor-font-family: 'inherit';
+    --anchor-font-family: 'Comfortaa Variable', sans-serif;
 }
