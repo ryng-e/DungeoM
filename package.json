@@ -28,6 +28,7 @@
 	"dependencies": {
 		"@fontsource-variable/comfortaa": "^5.2.5",
 		"firebase": "^11.8.1",
-		"lucide-svelte": "^0.511.0"
+		"lucide-svelte": "^0.511.0",
+		"rand-seed": "^2.1.7"
 	}
 }
